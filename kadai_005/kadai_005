@@ -1,0 +1,47 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fqFgRtjbJ4Bn",
+        "outputId": "b5ae34a6-918f-41e1-e8f4-c7bf3594f2c0"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "75.0㎠\n"
+          ]
+        }
+      ],
+      "source": [
+        "top = 10\n",
+        "bottom = 20\n",
+        "height= 5\n",
+        "\n",
+        "area = (top + bottom) * height / 2\n",
+        "\n",
+        "print(str(area) + \"㎠\")"
+      ]
+    }
+  ]
+}
